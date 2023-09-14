@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 
@@ -14,12 +14,11 @@
     <header class="header">
         <div class="container container_header">
             <div class="left">
-                <div class="logo"><a href="index.html" target="_blank"><img src="image/Logo.svg" alt="Logo"></a></div>
-                <div class="search"><a href="#"><img src="image/search.svg" alt="search"></a></div>
+                <a class="logo" href="index.html" target="_blank"><img src="image/Logo.svg" alt="Logo"></a>
+                <a class="search" href="#"><img src="image/search.svg" alt="search"></a>
             </div>
             <div class="right">
-                <div class="menu"><img class="image_menu" src="image/menu.svg" alt="menu">
-                </div>
+                <a class="menu" href="#"><img class="image_menu" src="image/menu.svg" alt="menu"></a>
                 <div class="menu__list__none">
                     <div class="menu__list">
                         <img class="img-menu__list" src="image/cross.svg" alt="cross">
@@ -50,59 +49,51 @@
                         </div>
                     </div>
                 </div>
-                <div class="contacts"><a href="registration.html"><img src="image/contacts.svg" alt="contacts"></a>
-                </div>
-                <div class="cart"><a href="Cart.html" target="_blank"><img src="image/cart.svg" alt="cart"></a></div>
+                <a class="contacts" href="registration.html"><img src="image/contacts.svg" alt="contacts"></a>
+                <a class="cart" href="Cart.html" target="_blank"><img src="image/cart.svg" alt="cart"></a>
             </div>
         </div>
     </header>
     <main class="main">
         <div class="start">
-            <div class="container container_start start_margin">
-                <div class="start_img"><img class="start_img__media" src="image/Start__foto.png" alt="photo"></div>
+            <div class="container container_start">
+                <img class="start_img" src="image/Start__foto.png" alt="photo">
                 <div class="slogan">
                     <h1 class="slogan_first">THE BRAND</h1>
                     <h2 class="slogan_second">OF LUXERIOUS <span style="color:#f16d7f;">FASHION</span></h2>
                 </div>
             </div>
         </div>
-        <nav class="nav__info">
-            <div class="top__info">
-                <div class="nav__women">
-                    <a href="#" style="text-decoration: none;">
-                        <p class="text__info">30% OFF</p>
-                        <h2 class="heiding__info">FOR WOMEN</h2>
-                    </a>
-                </div>
-                <div class="nav__men">
-                    <a href="#" style="text-decoration: none;">
-                        <p class="text__info">HOT DEAL
-                        </p>
-                        <h2 class="heiding__info">FOR MEN</h2>
-                    </a>
-                </div>
-                <div class="nav__kids">
-                    <a href="#" style="text-decoration: none;">
-                        <p class="text__info">NEW ARRIVALS
-                        </p>
-                        <h2 class="heiding__info">FOR KIDS</h2>
-                    </a>
-                </div>
-            </div>
-            <div class="nav__accesories">
-                <a href="#" style="text-decoration: none;">
-                    <p class="text__info" style="padding-top: 65px;">LUXIROUS & TRENDY
+        <nav class="nav_info">
+            <div class="top_info">
+                <a class="nav_women" href="#">
+                    <p class="text_info">30% OFF</p>
+                    <h2 class="heiding_info">FOR WOMEN</h2>
+                </a>
+                <a class="nav_men" href="#">
+                    <p class="text_info">HOT DEAL
                     </p>
-                    <h2 class="heiding__info">ACCESORIES</h2>
+                    <h2 class="heiding_info">FOR MEN</h2>
+                </a>
+                <a class="nav_kids" href="#">
+                    <p class="text_info">NEW ARRIVALS
+                    </p>
+                    <h2 class="heiding_info">FOR KIDS</h2>
                 </a>
             </div>
+            <a class="nav_accesories" href="#">
+                <p class="text_info text_info-accesories">LUXIROUS & TRENDY
+                </p>
+                <h2 class="heiding_info">ACCESORIES</h2>
+            </a>
         </nav>
         <h2 class="heiding__card__box">Fetured Items</h2><br>
         <p class="card__box__description">Shop for items based on what we featured in this week</p><br>
         <section class="card__box">
             <div class="section__card">
-                <div class="image__card"><a href="product.html"><img src="image/card1.png" alt="card1"></a></div>
-                <div class="image__card-hover"><img src="image/add_to_cart.png" alt="add_to_cart"></div>
+                <div class="image__card"><img src="image/card1.png" alt="card1">
+                </div>
+                <a class="image__card-hover" href="product.html"><img src="image/add_to_cart.png" alt="add_to_cart"></a>
                 <h3 class="heiding__card">ELLERY X M'O CAPSULE</h3>
                 <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool Kym Ellery teams
@@ -111,7 +102,7 @@
             </div>
             <div class="section__card">
                 <div class="image__card"><img src="image/card2.png" alt="card"></div>
-                <div class="image__card-hover"><img src="image/add_to_cart.png" alt="add_to_cart"></div>
+                <a class="image__card-hover" href="product.html"><img src="image/add_to_cart.png" alt="add_to_cart"></a>
                 <h3 class="heiding__card">ELLERY X M'O CAPSULE</h3>
                 <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool Kym Ellery teams
@@ -120,7 +111,7 @@
             </div>
             <div class="section__card">
                 <div class="image__card"><img src="image/card3.png" alt="card3"></div>
-                <div class="image__card-hover"><img src="image/add_to_cart.png" alt="add_to_cart"></div>
+                <a class="image__card-hover" href="product.html"><img src="image/add_to_cart.png" alt="add_to_cart"></a>
                 <h3 class="heiding__card">ELLERY X M'O CAPSULE</h3>
                 <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool Kym Ellery teams
@@ -129,7 +120,7 @@
             </div>
             <div class="section__card">
                 <div class="image__card"><img src="image/card4.png" alt="card4"></div>
-                <div class="image__card-hover"><img src="image/add_to_cart.png" alt="add_to_cart"></div>
+                <a class="image__card-hover" href="product.html"><img src="image/add_to_cart.png" alt="add_to_cart"></a>
                 <h3 class="heiding__card">ELLERY X M'O CAPSULE</h3>
                 <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool Kym Ellery teams
@@ -138,7 +129,7 @@
             </div>
             <div class="section__card">
                 <div class="image__card"><img src="image/card5.png" alt="card5"></div>
-                <div class="image__card-hover"><img src="image/add_to_cart.png" alt="add_to_cart"></div>
+                <a class="image__card-hover" href="product.html"><img src="image/add_to_cart.png" alt="add_to_cart"></a>
                 <h3 class="heiding__card">ELLERY X M'O CAPSULE</h3>
                 <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool Kym Ellery teams
@@ -147,7 +138,7 @@
             </div>
             <div class="section__card">
                 <div class="image__card"><img src="image/card6.png" alt="card6"></div>
-                <div class="image__card-hover"><img src="image/add_to_cart.png" alt="add_to_cart"></div>
+                <a class="image__card-hover" href="product.html"><img src="image/add_to_cart.png" alt="add_to_cart"></a>
                 <h3 class="heiding__card">ELLERY X M'O CAPSULE</h3>
                 <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool Kym Ellery teams
