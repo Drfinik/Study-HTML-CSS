@@ -14,12 +14,11 @@
     <header class="header">
         <div class="container container_header">
             <div class="left">
-                <div class="logo"><a href="index.html" target="_blank"><img src="image/Logo.svg" alt="Logo"></a></div>
-                <div class="search"><a href="#"><img src="image/search.svg" alt="search"></a></div>
+                <a class="logo" href="index.html" target="_blank"><img src="image/Logo.svg" alt="Logo"></a>
+                <a class="search" href="#"><img src="image/search.svg" alt="search"></a>
             </div>
             <div class="right">
-                <div class="menu"><img class="image_menu" src="image/menu.svg" alt="menu">
-                </div>
+                <a class="menu" href="#"><img class="image_menu" src="image/menu.svg" alt="menu"></a>
                 <div class="menu__list__none">
                     <div class="menu__list">
                         <img class="img-menu__list" src="image/cross.svg" alt="cross">
@@ -50,23 +49,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="contacts"><a href="registration.html"><img src="image/contacts.svg" alt="contacts"></a>
-                </div>
-                <div class="cart"><a href="Cart.html" target="_blank"><img src="image/cart.svg" alt="cart"></a></div>
+                <a class="contacts" href="registration.html"><img src="image/contacts.svg" alt="contacts"></a>
+                <a class="cart" href="Cart.html" target="_blank"><img src="image/cart.svg" alt="cart"></a>
             </div>
         </div>
     </header>
     <main class="main">
-        <div class="start">
-            <div class="container container_start container_start-height">
-                <div class="left heiding_start">REGISTRATION</div>
-                <div class="right menu_start">
-                    <a href="index.html">HOME</a>
-                    <span>/</span>
-                    <a href="#">MEN</a>
-                    <span>/</span>
-                    <a class="menu_start-pink" href="catalog.html">NEW ARRIVALS</a>
-                </div>
+        <div class="start start-second">
+            <div class="container container_start container_start-second">
+                <div class="left-second">REGISTRATION</div>
             </div>
         </div>
         <form class="container form_registration">
@@ -77,8 +68,8 @@
                     <input class="text-input__adress text_input_form_registration" type="text" placeholder="Last Name">
                 </div>
                 <div class="form_radio">
-                    <input class="radio_male" type="radio" name="sex" value="male" checked> Male
-                    <input class="radio_female" type="radio" name="sex" value="female"> Female
+                    <label class="radio_male"><input type="radio" name="sex" value="male" checked> Male</label>
+                    <label class="radio_female"><input type="radio" name="sex" value="female"> Female</label>
                 </div>
 
                 <div class="flex_registration">
@@ -91,7 +82,8 @@
                     uppercase and
                     lowercase
                     letters</p>
-                <div class="a__browse a__browse_input_form_registration"><a class="browse__text" href="#">JOIN NOW</a>
+                <div class="a__browse a__browse_input_form_registration"><input class="browse__text " type="submit"
+                        value="JOIN NOW">
                 </div>
             </div>
             <div class="loyalty_box">
